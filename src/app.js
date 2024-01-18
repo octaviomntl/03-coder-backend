@@ -16,7 +16,7 @@ app.get('/products', async (req, res) => {
         const products = await productManager.readProducts();
 
         if(limit) {
-            const limitedProducts = products.slice(0, limit);
+            const limitedProducts = products.slice(0, parseInt(limit));
             res.json(limitedProducts);
         } else {
             res.json(products);
