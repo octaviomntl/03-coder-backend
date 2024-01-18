@@ -1,0 +1,1 @@
+[{"title":"NuevaManzana","description":"Manzana verde","price":3,"thumbnail":"img-url","code":4,"stock":2,"id":1},{"title":"Pera","description":"Pera verde","price":5,"thumbnail":"img-url","code":3,"stock":0,"id":3}]
